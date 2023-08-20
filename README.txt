@@ -2,6 +2,3 @@ For this job, we began by reading the command line input, then getting the jobs 
 
 For workload 1, all of the jobs are the same length of 3, so they all have equal wait and response time since they are done after one rotation of RR. Workload 2 has one job first that took 1000 seconds then the rest of the jobs were short. This shows the clear disadvantages of FIFO when it comes to having a consuming first job when compared to SJF. Workload 3 is jobs all of length 1, the wait time, response, and turn around is the same between all 3 scheduling methods since there is no advantages or disadvantages of any order since all jobs are the same and round robin will only have 1 run on each job since they are shorter than the time slice. Workload 4 is the opposite of 2 and has short jobs then one long job at the end. Workload 5 has 3, 9 and 12 has the job lengths. They can be calculated through using the equations for response time and turnaround time. 
 
-For this project, we did not have any issues. It was the most logical one that the concepts were taught clearly. 
-
-
